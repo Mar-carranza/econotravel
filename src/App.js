@@ -8,8 +8,21 @@ function App (){
     <div className = "App" >
 
       <Navbar/>
-          <Home/>
-     </div>
+      {/*
+      <Home/>
+      <Footer/>
+      <Login/>
+      <Registrer/>
+      <Search/>
+      <Detail/>
+      <DetalleLoged/>
+      <DetalleReserva/>
+      <Informacion/>
+      <Booking/>
+          /*}
+
+
+      </div> 
            );
     
           }
