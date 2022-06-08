@@ -8,7 +8,7 @@ function App (){
     <div className = "App" >
 
       <Navbar/>
-      {/*
+      
       <Home/>
       <Footer/>
       <Login/>
@@ -19,7 +19,7 @@ function App (){
       <DetalleReserva/>
       <Informacion/>
       <Booking/>
-          /*}
+          
 
 
       </div> 

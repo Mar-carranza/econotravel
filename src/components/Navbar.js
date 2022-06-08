@@ -10,20 +10,12 @@ function Navbar (){
         <div ><img className ="lupa"src={lupa} alt ="lupa"/></div>
         <div ><img className ="viajeros"src={viajeros} alt ="viajeros"/></div>
         <div ><img className ="maleta"src={maleta} alt ="viajeros"/></div>
-
-                
-           
-       
-           </nav>
-           </div>
-          </div>
+ 
+        </nav>
+        </div>
 
 )
 }
 export default navbar
 
 
-
-    )
-}
-export default Navbar ;
