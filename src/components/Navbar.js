@@ -1,21 +1,53 @@
-import { AppBar } from "@mui/material";
+
 import React from "react";
-import Logo from './imagenes/Logo.png'
+import Box from '@mui/material/Box';
+import Logo from './imagenes/Logo.png';
+import lupa from './imagenes/lupa.png';
+import viajeros from './imagenes/viajeros.png';
+import maleta from './imagenes/maleta.png';
+
 
 function Navbar (){
-    return (
-        <div className ="nav">
-        <nav className ="navbar">
-        <div><img className="logo" src={Logo} alt="Logo" /> </div>
-        <div ><img className ="lupa"src={lupa} alt ="lupa"/></div>
-        <div ><img className ="viajeros"src={viajeros} alt ="viajeros"/></div>
-        <div ><img className ="maleta"src={maleta} alt ="viajeros"/></div>
- 
-        </nav>
-        </div>
-
-)
+  return (
+    <Box className="nav" style={{ display: "flex", justifyContent: "center" }}>
+      <nav className="navbar">
+        <Box>
+          <img
+            className="logo"
+            style={{ height: "6em" }}
+            src={Logo}
+            alt="Logo"
+          />
+        </Box>
+        <input />
+        <Box>
+          <img
+            className="lupa"
+            style={{ height: "2em" }}
+            src={lupa}
+            alt="lupa"
+          />
+        </Box>
+        <Box>
+          <img
+            className="viajeros"
+            style={{ height: "2em" }}
+            src={viajeros}
+            alt="viajeros"
+          />
+        </Box>
+        <Box>
+          <img
+            className="maleta"
+            style={{ height: "2em" }}
+            src={maleta}
+            alt="maleta"
+          />
+        </Box>
+      </nav>
+    </Box>
+  );
 }
-export default navbar
+export default Navbar;
 
 

@@ -1,30 +1,26 @@
-import React, { Component } from 'react';
+import React from "react";
 import './App.css';
 import Navbar from './components/Navbar'; 
-import Home from './components/Home';
-
-function App (){
-  return(
-    <div className = "App" >
-
-      <Navbar/>
-      
-      <Home/>
-      <Footer/>
-      <Login/>
-      <Registrer/>
-      <Search/>
-      <Detail/>
-      <DetalleLoged/>
-      <DetalleReserva/>
-      <Informacion/>
-      <Booking/>
-          
+import Home from './components/Home'; 
+import DetalleLoged from './components/DetalleLoged';
 
 
-      </div> 
-           );
-    
-          }
-          export default App;
-          
+function App() {
+  
+    return(
+      <div className = "App" >
+       <Navbar/>
+       <Home/>
+       <DetalleLoged/>
+
+       </div>
+    )
+  }
+
+
+
+
+
+
+
+export default App;
