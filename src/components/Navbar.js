@@ -9,8 +9,8 @@ import maleta from './imagenes/maleta.png';
 
 function Navbar (){
   return (
-    <Box className="nav" style={{ display: "flex", justifyContent: "center" }}>
-      <nav className="navbar">
+    <Box className="nav" style={{ background:'bbf455' }}>
+      <nav className="navbar" style={{ display:'flex', justifyContent:'space-evenly', alignItems:'center' }}>
         <Box>
           <img
             className="logo"
