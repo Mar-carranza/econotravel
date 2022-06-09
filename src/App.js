@@ -2,7 +2,8 @@ import React from "react";
 import './App.css';
 import Navbar from './components/Navbar'; 
 import Home from './components/Home'; 
-import DetalleLoged from './components/DetalleLoged';
+import Login from './components/Login';
+import Register from './components/Register';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <div className = "App" >
        <Navbar/>
        <Home/>
-       <DetalleLoged/>
+       <Login/>
+       <Register/>
 
        </div>
     )

@@ -24,7 +24,7 @@ const Home = () => {
         <h1>Experiencia en Barcelona </h1>
       </Box>
       <Box style={{ display: "inline-flex", gap: "10em" }}>
-        <div>ubicacion</div> <div>Transporte</div> <div>Duracion</div>
+        <div>Ubicación</div> <div>Transporte</div> <div>Duración</div>
       </Box>
     </Box>
   );
