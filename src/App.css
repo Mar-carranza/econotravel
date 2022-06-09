@@ -1,3 +1,13 @@
+*{
+  margin:auto;
+  font-family: Poppins;
+  font-size: 1.2rem;  
+}
+Body{
+  background-color:#FFEFD5;
+  font-family: 'Poppins', sans-serif;
+  color: #228B22;
+} 
 .App {
   text-align: center;
 }
