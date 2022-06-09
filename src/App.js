@@ -5,6 +5,7 @@ import Home from './components/Home';
 import DetalleLoged from './components/DetalleLoged';
 
 
+
 function App() {
   
     return(
