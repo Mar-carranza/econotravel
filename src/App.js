@@ -2,7 +2,9 @@ import React from "react";
 import './App.css';
 import Navbar from './components/Navbar'; 
 import Home from './components/Home'; 
-import DetalleLoged from './components/DetalleLoged';
+import Login from './components.Login';
+import DetalleReserva from './components.DetalleReserva';
+import Register from './components.Register';
 import Detalle from "./components/Detalle";
 import Reserva from "./components/Reserva";
 
@@ -14,9 +16,12 @@ function App() {
       <div className = "App" >
        <Navbar/>
        <Home/>
-       <DetalleLoged/>
+       <Login/>
        <Detalle />
        <Reserva />
+       <DetalleReserva/>
+       <Register/>
+
 
 
        </div>
