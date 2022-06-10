@@ -14,15 +14,9 @@ function App() {
       <div className = "App" >
        <Navbar/>
        <Home/>
-<<<<<<< HEAD
-       <Detalle />
-       <Reserva />
-       <Login />
-       <Register/>
-      <DetalleReserva /> 
-=======
        <DetalleReserva /> 
->>>>>>> 1809c0c00b79b9ea28dc960be6d5d6ca2ad2d91a
+       <Login/>
+       <Register/>
 
 
        </div>
