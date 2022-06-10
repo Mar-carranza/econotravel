@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Detalle from "./components/Detalle";
 import Reserva from "./components/Reserva";
 import DetalleReserva from "./components/DetalleReserva";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 
 
@@ -16,6 +18,8 @@ function App() {
        <Home/>
        <Detalle />
        <Reserva />
+       <Login />
+       <Register/>
       <DetalleReserva /> 
 
 
