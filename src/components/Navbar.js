@@ -4,21 +4,23 @@ import Logo from './imagenes/Logo.png';
 import lupa from './imagenes/lupa.png';
 import viajeros from './imagenes/viajeros.png';
 import maleta from './imagenes/maleta.png';
+import { TextField, IconButton } from "@mui/material";
 
 
 function Navbar (){
   return (
-    <Box className="nav" style={{ background:'#9ACD32' }}>
+    <Box className="nav" style={{ background:'FFEFD5'}}>
       <nav className="navbar" style={{ display:'flex', justifyContent:'space-evenly', alignItems:'center'  }}>
-        <Box>
+        
           <img
             className="logo"
             style={{ height: "6em" }}
             src={Logo}
             alt="Logo"
           />
+        <Box style={{width:'60%'}}>
+          <TextField type='search' placeholder="Busca una actividad, un lugar..." fullWidth/>
         </Box>
-        <input />
         <Box>
           <img
             className="lupa"

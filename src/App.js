@@ -1,11 +1,10 @@
 import React from "react";
 import './App.css';
 import Navbar from './components/Navbar'; 
-import Home from './components/Home';
+import Home from './components/Home'; 
 import Detalle from "./components/Detalle";
 import Reserva from "./components/Reserva";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import DetalleReserva from "./components/DetalleReserva";
 
 
 
@@ -15,12 +14,9 @@ function App() {
       <div className = "App" >
        <Navbar/>
        <Home/>
-       <Register />
-       <Login/>
        <Detalle />
        <Reserva />
-      
-
+      <DetalleReserva /> 
 
 
        </div>
