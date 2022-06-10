@@ -1,10 +1,11 @@
 import react from "react";
 import { Grid } from "@mui/material";
-import Logo from './imagenes/Logo.png';
+import logogrande from './imagenes/logogrande.png';
 
 function Login() {
     return (
-      <div className="Login">
+      <div className="Login" style={{height:"100vh"}}>
+        
         <Grid
           container
           direction="row"
@@ -12,11 +13,14 @@ function Login() {
           alignItems="center"
         >
           <div className="grid-block">
-            <h1 className="text-click">
-              Haz click aquí, si no te has registrado
-            </h1>
+          <img
+            className="logogrande"
+            style={{ height: "15em" }}
+            src={logogrande}
+            alt="logogrande"
+          />   
           </div>
-          <div className="form">
+          <div className="form" style={{}}>
             <p>Username:</p>
             <input className="input"></input>
             <p>Password:</p>
@@ -24,6 +28,10 @@ function Login() {
             <div>
               <button className="button-form">Login</button>
             </div>
+            <h1 className="text-click">
+              Haz click aquí, si ya te has registrado
+            </h1>
+            <gap></gap>
           </div>
         </Grid>
       </div>
