@@ -19,7 +19,7 @@ function Navbar (){
             alt="Logo"
           />
         <Box style={{width:'60%'}}>
-          <TextField type='search' placeholder="Busca una actividad, un lugar..." fullWidth/>
+          <TextField type='search' onKeyDown={(event)=>{if (event.code ==="Enter") alert("hola")}}placeholder="Busca una actividad, un lugar..." fullWidth/>
         </Box>
         <Box>
           <img
