@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2152f4e0.css",
+    "main.js": "/static/js/main.4044dea4.js",
+    "static/media/maletaBack.jpeg": "/static/media/maletaBack.70e1f18d2891b9e0227d.jpeg",
+    "static/media/viajeros.png": "/static/media/viajeros.25c77f10b1921825d4f9.png",
+    "static/media/lupa.png": "/static/media/lupa.468e4b54f187327fbd62.png",
+    "static/media/logogrande.png": "/static/media/logogrande.10e0fad761d04cf4b5cb.png",
+    "static/media/montseny.jpg": "/static/media/montseny.f75be2deb530047a0962.jpg",
+    "static/media/embarcacion.jpg": "/static/media/embarcacion.5759b73a1ed4c5af815d.jpg",
+    "static/media/nubes.jpg": "/static/media/nubes.ca0493495c57b7488b12.jpg",
+    "static/media/callebarcelona.jpg": "/static/media/callebarcelona.cdf74dfa6742d6956069.jpg",
+    "static/media/luzmontaña.jpg": "/static/media/luzmontaña.b38041d110c43368dcfa.jpg",
+    "static/media/playa.jpg": "/static/media/playa.8b9e600e09242e751721.jpg",
+    "index.html": "/index.html",
+    "main.2152f4e0.css.map": "/static/css/main.2152f4e0.css.map",
+    "main.4044dea4.js.map": "/static/js/main.4044dea4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2152f4e0.css",
+    "static/js/main.4044dea4.js"
+  ]
+}

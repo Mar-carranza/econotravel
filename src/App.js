@@ -5,23 +5,26 @@ import Home from './components/Home';
 import DetalleReserva from "./components/DetalleReserva";
 import Login from "./components/Login";
 import Register from "./components/Register";
-
+import Search from "./components/Search";
 
 
 function App() {
   
-    return(
+     return(
       <div className = "App" >
        <Navbar/>
        <Home/>
        <DetalleReserva /> 
        <Login/>
        <Register/>
-
+       <Search/>
 
        </div>
     )
   }
+
+
+
 
 
 
