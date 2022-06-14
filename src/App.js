@@ -6,6 +6,7 @@ import DetalleReserva from "./components/DetalleReserva";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import { BrowserRouter, Router } from "react-router-dom";
+import Informacion from './components/Informacion'; 
 
 
 
@@ -15,12 +16,12 @@ function App() {
       <div className = "App" >
         <BrowserRouter>
           <Navbar/>
-         
+          
           <Home/>
           <DetalleReserva /> 
           <Login/>
           <Register/>
-          
+          <Informacion />
         </BrowserRouter> 
        
        </div>

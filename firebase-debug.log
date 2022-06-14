@@ -1,0 +1,43 @@
+[debug] [2022-06-14T16:36:41.332Z] ----------------------------------------------------------------------
+[debug] [2022-06-14T16:36:41.339Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Spirit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-14T16:36:41.340Z] CLI Version:   11.1.0
+[debug] [2022-06-14T16:36:41.340Z] Platform:      win32
+[debug] [2022-06-14T16:36:41.340Z] Node Version:  v16.15.0
+[debug] [2022-06-14T16:36:41.352Z] Time:          Tue Jun 14 2022 18:36:41 GMT+0200 (hora de verano de Europa central)
+[debug] [2022-06-14T16:36:41.353Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-14T16:36:41.529Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-14T16:36:41.530Z] > authorizing via signed-in user (alejapiatti@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Spirit\Desktop\Factoria-F5\Proyectos\econotravel
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-14T16:37:05.847Z] Using project from CLI flag: hospedaje-react-firebase-90146
+[debug] [2022-06-14T16:37:05.856Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hospedaje-react-firebase-90146 [none]
+[debug] [2022-06-14T16:37:06.390Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hospedaje-react-firebase-90146 403
+[debug] [2022-06-14T16:37:06.391Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hospedaje-react-firebase-90146 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-06-14T16:37:06.393Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-14T16:37:06.396Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Spirit\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Spirit\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:287:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project hospedaje-react-firebase-90146. Please make sure the project exists and your account has permission to access it.

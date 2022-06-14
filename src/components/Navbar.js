@@ -4,8 +4,7 @@ import Logo from './imagenes/Logo.png';
 import lupa from './imagenes/lupa.png';
 import viajeros from './imagenes/viajeros.png';
 import maleta from './imagenes/maleta.png';
-import { TextField, IconButton } from "@mui/material";
-
+import SearchBar from './SearchBar';
 
 function Navbar (){
   return (
@@ -19,7 +18,7 @@ function Navbar (){
             alt="Logo"
           />
         <Box style={{width:'60%'}}>
-          <TextField type='search' onKeyDown={(event)=>{if (event.code ==="Enter") alert("hola")}}placeholder="Busca una actividad, un lugar..." fullWidth/>
+          <SearchBar />
         </Box>
         <Box>
           <img
