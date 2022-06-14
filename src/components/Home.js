@@ -1,5 +1,5 @@
 import React from "react";
-import maletaBack from "./imagenes/maletaBack.jpeg";
+import maletaBack from "./imagenes/maletaBack.jpg";
 import luzmontaña from "./imagenes/luzmontaña.jpg";
 import playa from "./imagenes/playa.jpg";
 import callebarcelona from "./imagenes/callebarcelona.jpg";
