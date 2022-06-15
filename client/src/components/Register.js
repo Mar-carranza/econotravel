@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import logogrande from "./assets/logogrande.png";
+import logogrande from "../assets/logogrande.png";
+import { Link } from 'react-router-dom';
 
 function Register() {
   return (
@@ -32,7 +33,7 @@ function Register() {
             <div>
               <button className="button-form">Login</button>
             </div>
-           <h1 className="text-click">Haz click aquí, no te has registrado.</h1>
+           <h1 className="text-click">Haz click <Link to="/login">aquí</Link>, si todavía no te has registrado</h1>
           </div>
         </div>
       </Grid>

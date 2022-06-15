@@ -7,7 +7,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import { BrowserRouter } from "react-router-dom";
 import Informacion from './components/Informacion'; 
-
+import Rutas from './components/Rutas';
 
 
 function App() {
@@ -18,7 +18,8 @@ function App() {
           <Navbar/>
           
           <Home/>
-          <DetalleReserva /> 
+          <DetalleReserva />
+          <Rutas />
           <Login/>
           <Register/>
           <Informacion />

@@ -11,7 +11,7 @@ export default function Rutas(){
     let element = useRoutes([
         {
             element: <Home />,
-            path: "home"
+            path: "/"
         },
         {
             element: <Login />,
