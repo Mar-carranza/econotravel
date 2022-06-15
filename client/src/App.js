@@ -15,11 +15,12 @@ function App() {
      return(
       <div className = "App" >
         <BrowserRouter>
+          <Rutas />
           <Navbar/>
           
           <Home/>
           <DetalleReserva />
-          <Rutas />
+          
           <Login/>
           <Register/>
           <Informacion />
