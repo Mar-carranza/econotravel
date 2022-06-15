@@ -31,7 +31,7 @@ function Login() {
             <h1 className="text-click">
               Haz click aquí, si ya te has registrado
             </h1>
-            <gap></gap>
+          
           </div>
         </Grid>
       </div>
