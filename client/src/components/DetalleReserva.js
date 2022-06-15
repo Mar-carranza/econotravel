@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box } from "@mui/system";
 import Navbar from "./Navbar";
-import bicicleta1 from './imagenes/montseny.jpg';
+import bicicleta1 from './assets/montseny.jpg';
 import { Typography, TextField, Card, FormControl, Button } from "@mui/material";
 import { CardActions } from "@mui/material";
 import CardContent from '@mui/material/CardContent';

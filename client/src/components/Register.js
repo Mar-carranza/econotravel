@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import logogrande from "./imagenes/logogrande.png";
+import logogrande from "./assets/logogrande.png";
 
 function Register() {
   return (

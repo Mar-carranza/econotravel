@@ -1,6 +1,6 @@
-import react from "react";
+import React from "react";
 import { Grid } from "@mui/material";
-import Logo from './imagenes/Logo.png';
+import Logo from './assets/Logo.png';
 
 function Loged() {
     return (

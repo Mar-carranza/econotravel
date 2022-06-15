@@ -1,9 +1,9 @@
 import React from "react";
 import Box from '@mui/material/Box';
-import Logo from './imagenes/Logo.png';
-import lupa from './imagenes/lupa.png';
-import viajeros from './imagenes/viajeros.png';
-import maleta from './imagenes/maleta.png';
+import Logo from './assets/Logo.png';
+import lupa from './assets/lupa.png';
+import viajeros from './assets/viajeros.png';
+import maleta from './assets/maleta.png';
 import SearchBar from './SearchBar';
 
 function Navbar (){
