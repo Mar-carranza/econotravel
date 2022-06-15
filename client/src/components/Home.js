@@ -22,7 +22,7 @@ const Home = () => {
         />
         <button
           className="buttonDescubre"
-          style={{ position: "absolute", top: "70%", left: "47%" }}
+          style={{ position: "absolute", top: "70%", left: "47%",backgroundColor: "#B1CC74",borderColor: "#B1CC74",color:"white" }}
         >
           Descubre Mas
         </button>
@@ -201,7 +201,7 @@ const Home = () => {
         </h3>
         <button
           className="registrate"
-          style={{ position: "absolute", top: "70%", left: "47%" }}
+          style={{ position: "absolute", top: "70%", left: "47%", backgroundColor: "#B1CC74",borderColor: "#B1CC74",color:"white" }}
         >
           Registrate hoy
         </button>

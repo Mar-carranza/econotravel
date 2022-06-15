@@ -32,8 +32,8 @@ function Login() {
             <h1 className="text-click">
             Haz click <Link to="/register">aquí</Link>, si todavía no te has registrado
             </h1>
-           </div> 
           
+          </div>
         </Grid>
       </div>
     );
