@@ -7,23 +7,33 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Footer from "./components/Footer.js";
 
+import { BrowserRouter } from "react-router-dom";
+import Informacion from './components/Informacion'; 
+import Rutas from './components/Rutas';
 
 
 function App() {
   
-    return(
+     return(
       <div className = "App" >
-       <Navbar/>
-       <Home/>
-       <DetalleReserva /> 
-       <Login/>
-       <Register/>
+        <BrowserRouter>
+          <Navbar/>
+          
+          <Home/>
+          <DetalleReserva />
+          <Rutas />
+          <Login/>
+          <Register/>
+          <Informacion />
+        </BrowserRouter> 
        <Footer/>
-
-
+       
        </div>
     )
   }
+
+
+
 
 
 

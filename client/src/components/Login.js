@@ -1,6 +1,7 @@
-import react from "react";
+import React from "react";
 import { Grid } from "@mui/material";
-import logogrande from './imagenes/logogrande.png';
+import logogrande from '../assets/logogrande.png';
+import { Link } from 'react-router-dom';
 
 function Login() {
     return (
@@ -29,7 +30,7 @@ function Login() {
               <button className="button-form">Login</button>
             </div>
             <h1 className="text-click">
-              Haz click aquí, si ya te has registrado
+            Haz click <Link to="/register">aquí</Link>, si todavía no te has registrado
             </h1>
           
           </div>

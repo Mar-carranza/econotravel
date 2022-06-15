@@ -1,7 +1,8 @@
 import React from "react";
-import Logo from './imagenes/Logo.png';
+import Logo from '../assets/Logo.png';
 import Box from "@mui/material/Box";
-//import DatePicker from '@mui/lab/DatePicker';
+//import DataPicker from 'react-DataPicker';
+//import 'react-DataPicker/dist/react-datapicker.css';
 
 function Reserva (){
     return (

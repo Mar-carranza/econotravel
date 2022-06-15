@@ -1,11 +1,10 @@
 import React from "react";
 import Box from '@mui/material/Box';
-import Logo from './imagenes/Logo.png';
-import lupa from './imagenes/lupa.png';
-import viajeros from './imagenes/viajeros.png';
-import maleta from './imagenes/maleta.png';
-import { TextField, IconButton } from "@mui/material";
-
+import Logo from '../assets/Logo.png';
+import lupa from '../assets/lupa.png';
+import viajeros from '../assets/viajeros.png';
+import maleta from '../assets/maleta.png';
+import SearchBar from './SearchBar';
 
 function Navbar (){
   return (
@@ -19,7 +18,7 @@ function Navbar (){
             alt="Logo"
           />
         <Box style={{width:'60%'}}>
-          <TextField type='search' placeholder="Busca una actividad, un lugar..." fullWidth/>
+          <SearchBar />
         </Box>
         <Box>
           <img

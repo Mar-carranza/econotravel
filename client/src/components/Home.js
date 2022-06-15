@@ -1,10 +1,10 @@
 import React from "react";
-import maletaBack from "./imagenes/maletaBack.jpeg";
-import luzmontaña from "./imagenes/luzmontaña.jpg";
-import playa from "./imagenes/playa.jpg";
-import callebarcelona from "./imagenes/callebarcelona.jpg";
-import embarcacion from "./imagenes/embarcacion.jpg";
-import nubes from "./imagenes/nubes.jpg";
+import maletaBack from "../assets/maletaBack.jpg";
+import luzmontaña from "../assets/luzmontaña.jpg";
+import playa from "../assets/playa.jpg";
+import callebarcelona from "../assets/callebarcelona.jpg";
+import embarcacion from "../assets/embarcacion.jpg";
+import nubes from "../assets/nubes.jpg";
 
 
 import { Box } from "@mui/material";
