@@ -1,5 +1,5 @@
 import React from "react";
-import Logogrande from './assets/logogrande.png';
+import Logogrande from '../assets/logogrande.png';
 import { Box } from "@mui/system";
 
 
