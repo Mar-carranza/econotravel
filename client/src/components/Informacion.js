@@ -7,7 +7,7 @@ function Informacion (){
     return (
         <Box>
             <img className="Logogrande"  style={{ height: "20em" }} src={Logogrande} alt="Logogrande"/>
-             <h2 style = {{ weight: bold }}>Econotravel: Experiencias en el área de Barcelona</h2>
+             <h2 >Econotravel: Experiencias en el área de Barcelona</h2>
              <h3>- Quiénes somos -</h3>
              <Box>
              <h3>Misión</h3>
@@ -21,6 +21,7 @@ function Informacion (){
             <h4>Correo: info@econotravel.com</h4>
             <h4>Dirección: Carrer dels Viatgers, 28, 08001 Barcelona</h4>
             </Box>
+            
 
         </Box>     
     )}

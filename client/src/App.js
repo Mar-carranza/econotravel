@@ -8,6 +8,7 @@ import Register from "./components/Register";
 import { BrowserRouter } from "react-router-dom";
 import Informacion from './components/Informacion'; 
 import Rutas from './components/Rutas';
+import Reserva from './components/Reserva';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <DetalleReserva />
           <Rutas />
           <Login/>
+          <Reserva />
           <Register/>
           <Informacion />
         </BrowserRouter> 
