@@ -29,8 +29,8 @@ const ReadMore = ({ children }) => {
   };
 
 const card = (
-  <React.Fragment>
-    <CardContent >
+  <Card style={{border: 1, backgroundColor:'#FFEFD5'}} >
+    <CardContent>
       <Typography sx={{ fontSize: 30, fontWeight :'bold' }} color="#02122C" gutterBottom>
         250€
       </Typography>
@@ -42,10 +42,10 @@ const card = (
       </Box>
     </CardContent>
     <CardActions>
-      <Button href='#reserva' variant='contained' sx={{color:"#02122C", backgroundColor:'#B1CC74' }} >Reservar</Button>
+      <Button href='#reserva' variant='contained' sx={{color:"#02122C", backgroundColor:'#B1CC74',display:'flex', justifyContent:'center' }} >Reservar</Button>
       
     </CardActions>
-  </React.Fragment>
+  </Card>
 );
 
 export default function DetalleReserva() {
@@ -53,7 +53,7 @@ export default function DetalleReserva() {
     <Box style={{height: '100vh', padding:'3%'}}>
       <Navbar />
       <Box style={{padding:'4%'}}> 
-          <p style={{fontSize:'0.7rem', display:'flex', paddingTop:'4rem' }}> Home  Montaña  Bicicleta </p>
+          <p style={{fontSize:'0.7rem', display:'flex', paddingTop:'4rem' }}> Home > Montaña > Bicicleta </p>
           <Typography variant='h4' component="h2" sx={{marginBottom:'2rem'}}>Paseo en bicicleta por el Montseny</Typography>
           <Box style={{display:'flex', justifyContent: 'space-around', gap: '4%' }} >
             <Box>

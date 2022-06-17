@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return ( 
   
-  <TableFooter style ={{width:"100%",display:"block" }}>
+  <TableFooter style ={{width:"100%",display:"block"}}>
     <Box className="main-footer" style ={{color:"#710000", backgroundColor:"#B1CC74",padding:"1em 0 1em 0",display:"flex"}}>
          
 

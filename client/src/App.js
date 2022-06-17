@@ -22,6 +22,10 @@ function App() {
           <Navbar/>
           <Rutas />
           <DetalleReserva />
+          <Reserva />
+          <Login />
+          <Register />
+          <Informacion />
           <Footer />  
         </div>
        </BrowserRouter> 

@@ -202,7 +202,7 @@ const Home = () => {
         <h3 style={{ position: "absolute", top: "20%", left: "25%" }}>
           No te lo pierdas registrate hoy,y recibe un 25% de descuento en tu proxima experiencia 
         </h3>
-        <button
+        <button 
           className="registrate"
           style={{ position: "absolute", top: "70%", left: "47%", backgroundColor: "#B1CC74",borderColor: "#B1CC74",color:"white" }}
         >
