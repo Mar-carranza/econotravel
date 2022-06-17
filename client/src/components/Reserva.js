@@ -1,12 +1,19 @@
 import React from "react";
 import Logo from '../assets/Logo.png';
 import Box from "@mui/material/Box";
-//import DataPicker from 'react-DataPicker';
-//import 'react-DataPicker/dist/react-datapicker.css';
+//import { TextField } from "@material-ui/core/TextField";
+//import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns';
+//import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
+//import {DatePicker} from '@mui/x-date-pickers/DatePicker';
+
+
 
 function Reserva (){
+    /*const [value, setValue] = React.useState<Date | null>(null);*/
+    
+
     return (
-        <Box>
+    <Box>
         <Box style={{height:'100vh'}}>
             <img className="logo" style={{ height: "6em" }} src={Logo} alt="Logo"/>    
             <h2>Formulario de Reserva</h2>
@@ -24,6 +31,18 @@ function Reserva (){
             <p>Apellidos:</p>
             <input className="input"></input>
         </Box>
+        
+            {/*<LocalizationProvider  dateAdapter={AdapterDateFns}>
+           <DatePicker label="Seleccione una fecha" value={value} 
+            onChange={(newValue) =>{
+                setValue(newValue);
+            }}
+            renderInput={(params) => <TextField {...params} />}/>
+            
+        </LocalizationProvider>*/}
+            
+            
+        
         </Box>
          
      )         
