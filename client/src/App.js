@@ -21,6 +21,7 @@ function App() {
         <div className = "App" >
           <Navbar/>
           <Rutas />
+          <DetalleReserva />
           <Footer />  
         </div>
        </BrowserRouter> 

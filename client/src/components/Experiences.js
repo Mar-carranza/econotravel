@@ -13,7 +13,7 @@ const Experiences = () => {
     
     return (
     <div>
-      {experiences.map(experience=>{<p>{experience}</p>})}
+      {experiences.map(experience=><Experience title={experience.title} description={experience.description} img={experience.img} key={experience.id} />)}
      </div>
      
    )
@@ -21,3 +21,5 @@ const Experiences = () => {
     
 
   export default Experiences;
+
+  
