@@ -7,9 +7,12 @@ import embarcacion from "../assets/embarcacion.jpg";
 import nubes from "../assets/nubes.jpg";
 
 
+
 import { Box } from "@mui/material";
 
 const Home = () => {
+
+  
   return (
     <Box id="Home-P" style={{}}>
       <Box className="item" style={{ position: "relative" }}>
@@ -33,7 +36,7 @@ const Home = () => {
       <Box style={{ display: "inline-flex", gap: "5em" }}>
         <div>Ubicacion</div> <div>Transporte</div> <div>Duracion</div>
       </Box>
-
+ 
       <Box
         className="imagen1"
         style={{ display: "flex", flexDirection: "row" }}

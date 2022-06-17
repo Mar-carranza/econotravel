@@ -1,4 +1,4 @@
-import TableFooter from "@mui/material/TableFooter";
+import {TableFooter} from "@mui/material";
 import { Box } from "@mui/material";
 import React from "react";
 
