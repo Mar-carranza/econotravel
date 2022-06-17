@@ -11,24 +11,19 @@ import { BrowserRouter } from "react-router-dom";
 import Informacion from './components/Informacion'; 
 import Rutas from './components/Rutas';
 import Reserva from './components/Reserva';
+import Experiences from "./components/Experiences";
 
 
 function App() {
   
      return(
-      <div className = "App" >
-         <Navbar/>
-         <BrowserRouter>
-         <Rutas />
-          <DetalleReserva />
-          <Login/>
-          <Reserva />
-          <Register/>
-          <Informacion />
-        </BrowserRouter> 
-       <Footer/>
-       
-       </div>
+      <BrowserRouter>
+        <div className = "App" >
+          <Navbar/>
+          <Rutas />
+          <Footer />  
+        </div>
+       </BrowserRouter> 
     )
   }
 
