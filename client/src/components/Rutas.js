@@ -6,6 +6,7 @@ import Search from './Search';
 import Reserva from './Reserva';
 import Informacion from './Informacion';
 import Register from './Register';
+import Experiences from './Experiences';
 
 export default function Rutas(){
     let element = useRoutes([
@@ -32,6 +33,12 @@ export default function Rutas(){
         {
             element: <Register />,
             path: "register"
+            
+        },
+        {
+            element: <Experiences />,
+            path: "experiences"
+            
         }
     ]);
     return element
