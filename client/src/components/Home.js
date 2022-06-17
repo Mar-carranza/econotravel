@@ -4,7 +4,7 @@ import luzmontaña from "../assets/luzmontaña.jpg";
 import playa from "../assets/playa.jpg";
 import callebarcelona from "../assets/callebarcelona.jpg";
 import embarcacion from "../assets/embarcacion.jpg";
-import nubes from "../assets/nubes.jpg";
+import nubes from "../assets/nubes.png";
 
 
 

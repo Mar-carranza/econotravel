@@ -10,24 +10,20 @@ import { BrowserRouter } from "react-router-dom";
 import Informacion from './components/Informacion'; 
 import Rutas from './components/Rutas';
 import Reserva from './components/Reserva';
+import Experiences from "./components/Experiences";
 
 
 function App() {
   
      return(
-      <div className = "App" >
-         <Navbar/>
-         <BrowserRouter>
-         <Rutas />
+      <BrowserRouter>
+        <div className = "App" >
+          <Navbar/>
+          <Rutas />
           <DetalleReserva />
-          <Login/>
-          <Reserva />
-          <Register/>
-          <Informacion />
-        </BrowserRouter> 
-       <Footer/>
-       
-       </div>
+          <Footer />  
+        </div>
+       </BrowserRouter> 
     )
   }
 

@@ -42,7 +42,7 @@ const card = (
       </Box>
     </CardContent>
     <CardActions>
-      <Button href='#reserva' variant='contained' sx={{color:"#02122C" }} >Reservar</Button>
+      <Button href='#reserva' variant='contained' sx={{color:"#02122C", backgroundColor:'#B1CC74' }} >Reservar</Button>
       
     </CardActions>
   </React.Fragment>
